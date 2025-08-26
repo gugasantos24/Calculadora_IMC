@@ -20,7 +20,7 @@ function App() {
   // Condicional ternário  ? = if      : = else
   useEffect(()=>{
     resultado > 0 ? setMostrarResultado(true):setMostrarResultado(false)
-    },[resultado])
+    },[resultado]) 
 
   return (
     <div className="container">
