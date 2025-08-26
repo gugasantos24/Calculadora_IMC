@@ -36,7 +36,7 @@ function App() {
       <div className="box">
         <Header/>
         <form>
-          <label htmlFor="Altura">Altura <span>{}exemplo:1.8</span></label>
+          <label htmlFor="Altura">Altura <span>{}exemplo:1.80</span></label>
           <input type="number" id="altura" placeholder="Digite sua Altura" 
           onBlur={({target})=>parseInt(setAltura(target.value))}> 
           </input>
