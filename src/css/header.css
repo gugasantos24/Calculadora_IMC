@@ -1,7 +1,7 @@
 .header {
     text-align: center;
     margin-bottom: 20px;
-    color: var(--fontColor2);
+    color: var(--fontColor3);
 }
 .header:hover {
     color: var(--bgColor2);
